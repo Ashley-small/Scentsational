@@ -329,7 +329,7 @@ display: block;
   .hamburger {
     display: block;
     position: absolute;
-    top: 10px;
+    top: 5px;
     left: 40px;
   }
 
