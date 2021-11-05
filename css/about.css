@@ -320,7 +320,7 @@ h1{
     }.hamburger{
   display: block;
   position: absolute;
-  top: 10px;
+  top: 5px;
   left:40px;
 }.change .bar1{
   transform: rotateZ(-405deg) translate(-8px, 7px);
