@@ -263,14 +263,14 @@ footer{
 
 .quick-links{
   display: flex;
-  width: 450px;
+  width: 350px;
   height: 70px;
   margin: auto;
 }
 .quick-links ul{
   display: flex;
   padding: 20px;
-  white-space: nowrap;
+ 
 }
 .quick-items{
   list-style: none;
