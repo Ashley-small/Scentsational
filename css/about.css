@@ -1,0 +1,351 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+font-family: 'Kurale', serif;
+
+}
+
+body{
+  height: 100vh;
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+header{
+  margin: 0 auto;
+  width: 100;
+}
+
+header .brand{
+  font-size: 5em;
+  text-decoration: none;
+font-family: 'Carattere', cursive;
+  color: black;
+  margin-left: 1em;
+}
+
+header ul{
+  display: flex;
+  width: 95%;
+justify-content: space-around;
+  padding-bottom: 40px;
+  white-space: nowrap;
+
+}
+header ul li {
+list-style: none;
+text-align: center;
+margin-left: 2em;
+
+}
+
+header ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  font-family: 'Cairo', sans-serif;
+
+}
+
+  header ul li a:hover,
+  header ul li a:focus{
+    font-weight: bold;
+
+  }
+
+.hidden{
+  display: none
+}
+.sticky{
+  position: fixed;
+  width: 100%;
+  background: white;
+
+}
+
+
+.hamburger{
+width: 35px;
+height: 50px;
+position: fixed;
+display: none;
+cursor: pointer;
+
+}
+.bar1, .bar2, .bar3{
+  width: 100%;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+}.current-page{
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+
+.main-image {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-bottom: 40px;
+}
+.image-1{
+width: 95%
+}
+.about-statement{
+  text-align:center;
+  font-size: 22px;
+  width: 95%;
+  padding-bottom: 40px;
+  margin-left:1.5em;
+
+}
+.mission-statement a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.mission-statement a:hover,
+.mission-statement a:focus{
+  color: orange;
+}
+
+.row{
+  display:flex;
+  width: 95%;
+  margin:0 auto;
+  padding-bottom: 25px;
+
+}.row .name,
+.row .description,
+.row .signature-message{
+  text-align: center;
+}
+
+
+.column{
+  flex:50%;
+  margin: 0 auto;
+}
+h1{
+font-family: 'Cairo', sans-serif;
+    color: black;
+    font-size: 3em;
+    text-align: center;
+    padding-bottom: 1em;
+  }
+
+h2{
+  text-align: center;
+  padding-bottom: 15px;
+font-family: 'Cairo', sans-serif;
+  font-size: 30px;
+}
+.border {
+  border-style: none;
+  border-top-style:solid;
+  border-width: 2px;
+  width: 5%;
+  border-color: black;
+  margin: 0 auto;
+  padding-bottom: 15px
+}
+
+.mission-statement{
+letter-spacing: 1px;
+padding: 2em;
+
+}
+.signature-message{
+padding:2em;
+font-weight:bold;
+letter-spacing: 1px;
+}
+
+.signature{
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  width: 33%;
+}.name{
+  font-weight: bold;
+  padding-bottom: 2em;
+}
+.description{
+  font-size: 12px;
+
+}
+
+.story-image{
+  width: 95%;
+  object-fit: cover;
+}
+hr{
+border-style: none;
+border-top-style: dotted;
+border-width: 2px;
+width:95%;
+display: flex;
+margin: 0 auto;
+padding-bottom: 25px;
+}
+
+.subscribe{
+display: flex;
+flex-direction: column;
+width: 100%;
+text-align: center;
+}
+.newsletter .input{
+  width: 50%;
+  padding: 20px 50px;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid grey;
+  outline: none;
+}
+
+::placeholder{
+  color: black;
+}
+
+.contact{
+  width:95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding-bottom: 25px;
+  justify-content: space-around;
+}
+
+.contact p{
+font-family: 'Cairo', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+.contact i{
+margin-left: 1em;
+}
+
+footer{
+  position: relative;
+  width: 100%;
+}
+.social-media{
+  display:flex;
+
+}.social-media ul{
+  padding: 10px;
+  display: flex;
+  width: 300px;
+  height: 30px;
+  margin: auto;
+}
+.social-items{
+  list-style: none;
+}
+.social-items i{
+  font-size: 25px;
+  align-items: center;
+  cursor: pointer;
+}
+.social-items i:hover{
+  color: orange;
+}
+.social-media a{
+  padding: 10px 20px;
+  font-size: 30px;
+}
+
+
+.quick-links{
+  display: flex;
+  width: 450px;
+  height: 70px;
+  margin: auto;
+}
+.quick-links ul{
+  display: flex;
+  padding: 20px;
+  white-space: nowrap;
+}
+.quick-items{
+  list-style: none;
+}
+.quick-items a{
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 14px;
+  color: black;
+  transition: all .25s;
+  font-family: 'Cairo', sans-serif;
+}.quick-items a:hover{
+  color: orange;
+  font-weight: bold;
+}
+
+
+
+.outer-footer{
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+
+}
+
+.fixed {
+  overflow: hidden;
+}
+
+/*mobile-friendly*/
+
+@media screen and (max-width:750px){
+header .brand{
+  font-size: 3em;
+align-items: center;
+margin-left: 3em;
+}
+h1{
+  font-size: 2em;
+}h2{
+  font-size: 1.5em;
+}
+.row{
+  flex-direction: column;
+  }.column{
+    padding: 2em 0;
+    }.hamburger{
+  display: block;
+  position: absolute;
+  top: 10px;
+  left:40px;
+}.change .bar1{
+  transform: rotateZ(-405deg) translate(-8px, 7px);
+}
+.change .bar3{
+    transform: rotateZ(405deg)translate(-8px, -8px);
+}
+.change .bar2{
+  opacity: 0;
+}
+.nav-list{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background: white;
+  display: none;
+}
+.nav-list ul{
+  flex-direction: column;
+}
+
+.nav-list.active{
+  display: flex;
+}
+.subscribe h2{
+  font-size: 22px;
+}
+}
