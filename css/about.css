@@ -306,7 +306,7 @@ footer{
 header .brand{
   font-size: 3em;
 align-items: center;
-margin-left: 2em;
+margin-right: 2em;
 }
 h1{
   font-size: 2em;
@@ -321,7 +321,7 @@ h1{
   display: block;
   position: absolute;
   top: 5px;
-  left:40px;
+  right:40px;
 }.change .bar1{
   transform: rotateZ(-405deg) translate(-8px, 7px);
 }
