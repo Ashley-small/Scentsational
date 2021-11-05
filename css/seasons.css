@@ -366,5 +366,7 @@ flex-direction: column;
   }
   .subscribe h2{
     font-size: 22px;
-  }
+  }.newsletter .input{
+  width: 80%;
+}
 }
