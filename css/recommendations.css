@@ -367,5 +367,7 @@ height: 100%;
 
   .nav-list.active {
     display: block;
+  }.newsletter .input{
+  width:80%;
   }
   }
