@@ -360,7 +360,7 @@ flex-direction: column;
 height: 100%;
 
 }.column img{
-  margin-left:-2em;
+  margin-left:-2.5em;
   }
 .subscribe h2{
     font-size: 22px;
