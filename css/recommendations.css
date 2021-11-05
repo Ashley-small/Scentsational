@@ -373,5 +373,7 @@ height: 100%;
   }.quick-links ul {
  flex-wrap: wrap; 
     
-}
+}buy-now-btn{
+  left:50%;
+  }
   }
