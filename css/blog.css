@@ -392,7 +392,7 @@ footer {
   header .brand{
     font-size: 3em;
   align-items: center;
-  margin-left: 2em;
+  margin-right: 2em;
   }
   h1{
     font-size: 2em;
@@ -407,7 +407,7 @@ footer {
   display: block;
   position: absolute;
   top: 5px;
-  left: 40px;
+  right: 40px;
 }.change .bar1{
   transform: rotateZ(-405deg) translate(-8px, 7px);
 }
@@ -425,12 +425,8 @@ footer {
 }
 .nav-list ul{
   flex-direction: column;
-height: 100%;}
-
-/* }.sticky{
-  position: relative;
-} */
-.nav-list.active{
+height: 100%;
+  }.nav-list.active{
   display: block;
 }
 .subscribe h2{
