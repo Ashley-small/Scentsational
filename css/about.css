@@ -349,7 +349,7 @@ h1{
   font-size: 22px;
 }.newsletter .input{
   width: 80%;
-}.column-img{
-width:100%;
+}.adjust img{
+margin-left:1em;
 }
 }
